@@ -13,80 +13,79 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
        
         <header>
             <nav >
-                <div >
-                    <a href="#!">CarolFintch</a>
-                    <a href="#signup">Iniciar Sesion</a>
-                </div>
+            
+                <a href="#!">CarolFintch</a>
+                <a href="#signup">Iniciar Sesion</a>
+               
             </nav>
-            <section>
-                <div>
-                    <h1>Hola, soy Caroline, apasionada a por las finanzas, como tú.</h1>
-                    <button><a href="#">Conocer más</a></button>
+            <section class="section-header">
+                <div class="header-intro">
+                    <h1>Hola, soy Caroline,<br> apasionada a por las finanzas, como tú.</h1>
+                    <button class="header-button"><a href="#">Conocer más</a></button>
                 </div>
-                <div>
+                <div class="header-img">
                     <img src="./assets/undraw_projections_re_ulc6.svg" alt="">
                 </div>
             </section>
         </header>
         <main>
-            <section>
-                <h3>Sobre Mi</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa natus quo eos, totam aspernatur quos nesciunt, iure ex excepturi voluptatibus! Deserunt quisquam aperiam blanditiis libero alias sunt! Incidunt fugiat labore totam dolorum cumque! Culpa nemo natus suscipit minima, consequuntur laborum ipsam optio sit eaque modi at quis laudantium accusamus!</p>
+            <section class="section-about">
+                <h2>Sobre Mi</h2>
+                <img src="./assets/undraw_profile_pic_re_iwgo.svg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa natus quo eos, totam aspernatur quos nesciunt, iure ex excepturi voluptatibus! Deserunt quisquam aperiam blanditiis libero alias sunt! Incidunt fugiat labore totam dolorum cumque! Culpa nemo natus suscipit minima, consequuntur laborum ipsam optio sit eaque modi at quis laudantium accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, eaque nihil cumque accusamus pariatur animi maiores? Laborum tempora facere dicta quibusdam asperiores fugit eaque, totam earum vitae sunt, tempore rerum odit magni quisquam eum reprehenderit? Commodi facere eligendi doloremque dolorum non, soluta, expedita, iste nesciunt voluptatem iusto nam eius magni! </p>
             </section>
-            <section>
-                <h3>Mi curso</h3>
+            <section class="section-course">
+                <h2>Mi curso</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto commodi nesciunt aut nostrum dolorem saepe hic ea natus nobis beatae! Nihil pariatur nam, eligendi quas officiis accusantium, magni, sapiente quae harum repudiandae eaque aliquid numquam dignissimos repellendus a delectus excepturi minus recusandae sed quo quam velit eveniet in! Sequi, at.
                 </p>
-                <div>
-                    <img src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
-                </div>
-                <div>
-                    <article>
-                        <i class="bi bi-currency-dollar"></i>
-                        <span>Feature</span>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <i class="bi bi-piggy-bank-fill"></i>
-                        <span>Feature</span>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <i class="bi bi-bar-chart-fill"></i>
-                        <span>Feature</span>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
+                <div class="course-features-container">
+                    <div>
+                        <img src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
+                    </div>
+                    <div class="course-features">
+                        <article>
+                            <div>
+                                <i class="bi bi-currency-dollar"></i>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            </div>
+                            
+                        </article>
+                        <article>
+                            <div>
+                                <i class="bi bi-piggy-bank-fill"></i>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            </div>
+                           
+                        </article>
+                        <article>
+                            <div>
+                                <i class="bi bi-bar-chart-fill"></i>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            </div>
+                            
+                        </article>
+                    </div>
                 </div>
             </section>
-            <section>
+            <section class="form-section">
                 <form action="#">
-                    <fliedset>
-                        <legend>Suscribete</legend>
-                        <img src="./assets/undraw_text_field_htlv.svg" alt="">
-                        <label for="email">Correo:
-                            <input type="email" name="email">
-                        </label>
-                        <input type="submit" value="Enviar">
-                    </fliedset>
+                    <fieldset>
+                        <div class="form-inputs-container">
+                            <legend>Suscribete</legend>
+                            <label for="email">Correo:
+                                <input type="email" name="email" class="text-field">
+                                <input type="submit" value="Enviar" class="button">
+                            </label>
+                        </div>
+                        <div class="form-image-container"><img src="./assets/undraw_text_field_htlv.svg" alt=""></div>
+                    </fieldset>
                 </form>
             </section>
         </main>
