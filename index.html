@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>CarolFintch</title>
+        <title>CarolFintech</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -15,7 +15,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 
-        <link href="styles.css" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
        
@@ -31,85 +31,72 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#">Sobre Mi</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Mi Curso
-                          <span class="visually-hidden">(current)</span>
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Precios</a>
-                        </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi curso</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Separated link</a>
+                          <a class="dropdown-item" href="#">Features</a>
+                          <a class="dropdown-item" href="#">Precios</a>
+                          <a class="dropdown-item" href="#">Suscribete</a>
                         </div>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
-            <section class="section-header">
-                <div class="header-intro">
-                    <h1>Hola, soy Caroline,<br> apasionada a por las finanzas, como tú.</h1>
+            <section class="d-flex flex-column flex-md-row vh-auto align-items-center">
+                <div class="my-5 vh-50 text-center">
+                    <h1 class="fs-1 p-3">Hola, soy Caroline,<br> apasionada a por las finanzas, como tú.</h1>
                     <button type="button" class="btn btn-outline-primary m-3">Conocer mas</button>
                 </div>
-                <div class="header-img">
-                    <img class="img-fluid w-50" src="./assets/undraw_projections_re_ulc6.svg" alt="">
+                <div class="header-img-container w-100 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./assets/undraw_projections_re_ulc6.svg" alt="">
                 </div>
             </section>
         </header>
-        <main class="my-5">
-            <section class="section-about">
-                <h2>Sobre Mi</h2>
-                <img src="./assets/undraw_profile_pic_re_iwgo.svg" alt="">
+        <main class="p-5">
+            <section class="text-center">
+                <h2 class="my-3">Sobre Mi</h2>
+                <img class="w-25 my-5" src="./assets/undraw_profile_pic_re_iwgo.svg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa natus quo eos, totam aspernatur quos nesciunt, iure ex excepturi voluptatibus! Deserunt quisquam aperiam blanditiis libero alias sunt! Incidunt fugiat labore totam dolorum cumque! Culpa nemo natus suscipit minima, consequuntur laborum ipsam optio sit eaque modi at quis laudantium accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, eaque nihil cumque accusamus pariatur animi maiores? Laborum tempora facere dicta quibusdam asperiores fugit eaque, totam earum vitae sunt, tempore rerum odit magni quisquam eum reprehenderit? Commodi facere eligendi doloremque dolorum non, soluta, expedita, iste nesciunt voluptatem iusto nam eius magni! </p>
             </section>
-            <section class="section-course">
-                <h2>Mi curso</h2>
+            <section class="text-center">
+                <h2 class="my-5">Mi curso</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto commodi nesciunt aut nostrum dolorem saepe hic ea natus nobis beatae! Nihil pariatur nam, eligendi quas officiis accusantium, magni, sapiente quae harum repudiandae eaque aliquid numquam dignissimos repellendus a delectus excepturi minus recusandae sed quo quam velit eveniet in! Sequi, at.
                 </p>
-                <div class="course-features-container">
-                    <div>
-                        <img src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
+                <div class="d-flex my-5 align-items-center">
+                    <div class="w-50">
+                        <img class="w-100" src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
                     </div>
-                    <div class="course-features">
+                    <div class="w-50 fs-6">
                         <article>
-                            <div>
-                                <i class="bi bi-currency-dollar"></i>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            <div class="d-flex gap-2 align-items-center">
+                                <i class="bi bi-currency-dollar fs-3"></i>
+                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                             </div>
                             
                         </article>
                         <article>
-                            <div>
-                                <i class="bi bi-piggy-bank-fill"></i>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            <div class="d-flex  gap-2 align-items-center text-left">
+                                <i class="bi bi-piggy-bank-fill  fs-3"></i>
+                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                             </div>
                            
                         </article>
                         <article>
-                            <div>
-                                <i class="bi bi-bar-chart-fill"></i>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?</span>
+                            <div class="d-flex gap-2 align-items-center text-left">
+                                <i class="bi bi-bar-chart-fill fs-3"></i>
+                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                             </div>
                             
                         </article>
                     </div>
                 </div>
             </section>
-            <section class="form-section">
+            <section >
                 <form action="#">
-                    <fieldset>
-                        <div class="form-group">
+                    <fieldset class="d-md-flex gap-5">
+                        <div class="form-group w-md-50">
                             <legend class="form-label mt-4"><u>Suscribete</u></legend>
                             <div class="form-floating mb-3">
                               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -124,17 +111,17 @@
                             </div>
                            
                         </div>
-                        <div class="form-image-container"><img src="./assets/undraw_text_field_htlv.svg" alt=""></div>
+                        <div class="d-flex justify-content-center"><img class="w-75" src="./assets/undraw_text_field_htlv.svg" alt=""></div>
                     </fieldset>
                 </form>
             </section>
         </main>
-        <footer>
-            <ul>
-                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            </ul>
+        <footer class="bg-dark p-3 d-flex align-items-center justify-content-center">
+            <div class="d-flex gap-5 fs-3">
+                <a class="text-light" href="#"><i class="bi bi-instagram"></i></a>
+                <a class="text-light" href="#"><i class="bi bi-twitter"></i></a>
+                <a class="text-light" href="#"><i class="bi bi-facebook"></i></a>
+            </div>
     </footer>
     </body>
 </html>
