@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <link href="styles.css" rel="stylesheet"/>
     </head>
@@ -34,9 +37,10 @@
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi curso</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Features</a>
-                          <a class="dropdown-item" href="#">Precios</a>
-                          <a class="dropdown-item" href="#">Suscribete</a>
+                          <a class="dropdown-item" href="#features">Features</a>
+                          <a class="dropdown-item" href="#prices">Precios</a>
+                          <a class="dropdown-item" href="#faq">FAQ</a>
+                          <a class="dropdown-item" href="#suscribe">Suscribete</a>
                         </div>
                       </li>
                     </ul>
@@ -45,33 +49,73 @@
               </nav>
             <section class=" mt-3 d-flex flex-column flex-md-row vh-auto align-items-center">
                 <div class="my-5 vh-50 text-center">
-                    <h1 class="fs-1 p-3">Hola, soy Caroline,<br> apasionada a por las finanzas, como tu.</h1>
+                    <h1  data-aos="fade-right" class="fs-1 p-3">¿Te gustaria alcanzar tu libertad financiera por el camino más sencillo y seguro?.</h1>
                     <button type="button" class="btn btn-outline-primary m-3">Conocer mas</button>
                 </div>
                 <div class="header-img-container w-100 d-flex justify-content-center">
-                    <img class="img-fluid w-75" src="./assets/undraw_projections_re_ulc6.svg" alt="">
+                    <img class="img-fluid w-100" src="./assets/undraw_projections_re_ulc6.svg" alt="">
                 </div>
             </section>
         </header>
         <main class="p-5">
-            <section class="text-center">
+            <section data-aos="fade-up" class="text-center my-5">
                 <h2 class="my-3">Sobre Mi</h2>
                 <img class="w-25 my-5" src="./assets/undraw_profile_pic_re_iwgo.svg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa natus quo eos, totam aspernatur quos nesciunt, iure ex excepturi voluptatibus! Deserunt quisquam aperiam blanditiis libero alias sunt! Incidunt fugiat labore totam dolorum cumque! Culpa nemo natus suscipit minima, consequuntur laborum ipsam optio sit eaque modi at quis laudantium accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, eaque nihil cumque accusamus pariatur animi maiores? Laborum tempora facere dicta quibusdam asperiores fugit eaque, totam earum vitae sunt, tempore rerum odit magni quisquam eum reprehenderit? Commodi facere eligendi doloremque dolorum non, soluta, expedita, iste nesciunt voluptatem iusto nam eius magni! </p>
+                <p> 
+                    ¿Quien soy? Mi nombre es Caroline Sada, soy licenciada en Administración y Dirección de Empresas y una apasionada por el mundo de las finanzas, como tú. <br> Actualmente bríndo asesoria a quienes quieren conocer el funcionamiento de los mercados financieros y de capitales. <br> ¿Te gustaria saber cómo?
+                    
+                </p>
+                <button type="button" class="btn btn-outline-primary m-3">Conocer mas</button>
             </section>
-            <section class="text-center">
+            <section data-aos="fade-up" class="text-center my-5">
                 <h2 class="my-5">Mi curso</h2>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto commodi nesciunt aut nostrum dolorem saepe hic ea natus nobis beatae! Nihil pariatur nam, eligendi quas officiis accusantium, magni, sapiente quae harum repudiandae eaque aliquid numquam dignissimos repellendus a delectus excepturi minus recusandae sed quo quam velit eveniet in! Sequi, at.
+                    Este curso, te brindará las herramientas que te permitirán llevar a cabo una planeación financiera personal y entender la necesidad de salvaguardar tu patrimonio y recursos financieros, así como los requerimientos mínimos que se deben considerar para tomar buenas decisiones financieras.
+                    Aunque no hayas invertido nunca o no sepas nada del mercado te enseñare desde el 0 absoluto.
+                    La verdad es que no necesitas una técnica que te haga rico de la noche a la mañana o una “fórmula mágica”… Pero eso sí, un mapa completo que te guíe hacia la libertad financiera de una forma sencilla y segura.
+                    No llegará de la noche a la mañana, pero te garantizo que, poco a poco la construirás.
                 </p>
-                <div class="d-flex my-5 align-items-center">
-                    <div class="w-50">
+                
+                <div id="features" class="row align-items-center">
+                    <div class="col-md-6 col-lg-8">
                         <img class="w-100" src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
                     </div>
-                    <div class="w-50 fs-6 d-flex flex-column gap-3">
+                    <div class="d-flex gap-3 my-5 align-items-center row container col-md-6 col-lg-4">
+                        <div class="card p-3 fs-6">
+                            <h5 class="card-header ">Rentabilidad</h5>
+                            <div class="card-body d-flex gap-3">
+                                <i class="bi bi-currency-dollar fs-3 "></i>
+                                <p class="card-text">Conocerás las mejores opciones para proteger y potenciar tus activos.</p>
+                            </div>
+                        </div>
+                         <div class="card fs-6">
+                            <h5 class="card-header ">Control</h5>
+                            <div class="card-body d-flex gap-3">
+                                <i class="bi bi-bar-chart-fill fs-3"></i>
+                                <p class="card-text"> Encontrarás el equilibrio entre disfrutar el presente y construir tu independencia económica para el futuro.</p>
+                            </div>
+                        </div>
+                        <div class="card fs-6">
+                            <h5 class="card-header ">Independencia</h5>
+                            <div class="card-body d-flex gap-3 ">
+                                <i class="bi bi-piggy-bank-fill  fs-3"></i>
+                                <p class="card-text">Tendras tu propio plan y control total sobre tu futuro financiero.</p>
+                            </div>
+                        </div>
+                        <div class="card fs-6">
+                            <h5 class="card-header ">Sin complicaiones</h5>
+                            <div class="card-body d-flex gap-3">
+                                <i class="bi bi-suit-heart-fill fs-3"></i>
+                                <p class="card-text">Metodología didáctica sin complicaciones que hasta un niño puede entender.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                    <!-- <div class="w-50 fs-6 d-flex flex-column gap-3">
                         <article>
                             <div class="d-flex gap-2 align-items-center">
-                                <i class="bi bi-currency-dollar fs-3"></i>
+                                
                                 <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                             </div>
                             
@@ -90,31 +134,94 @@
                             </div>
                             
                         </article>
+                    </div> -->
+                </div>
+            </section>
+
+
+            <section id="faq" class="my-5" data-aos="fade-up" >
+                <h2 class="text-center my-5">FAQs</h2>
+                <div class="container">
+                    <div class="card " data-bs-toggle="collapse" data-bs-target="#firstfaq">
+                        <div class="card-body d-flex justify-content-center">
+                          <p class="card-text fw-bold">¿Que se necesita para tomar el curso?</p>
+                          <span><i class="bi bi-caret-down-fill"></i></span>
+                        </div>
+                    </div>
+                    <div class="card collapse" id="firstfaq">
+                        <p class="card-body text-decoration-underline text-center">No necesitas conocimientos previos, aqui se te dara la guia completa desde 0 para que termines conociendo hasta el ultimo detalle mas importante. </p>
+                    </div>
+                    <div class="card"  data-bs-toggle="collapse" data-bs-target="#secondfaq">
+                        <div class="card-body d-flex justify-content-center">
+                          <p class="card-text fw-bold">¿Que costo tiene?</p>
+                          <span><i class="bi bi-caret-down-fill"></i></span>
+                        </div>
+                    </div>
+                    <div class="card collapse" id="secondfaq">
+                        <p class="card-body text-decoration-underline text-center">El costo del curso es bastante accesible, tan solo $300 MXN, y ademas, si te inscribes ahora mismo tendras acceso a un webinar online en donde podras resolver dudas y conocer con anticipacion los temas del curso.</p>
+                    </div>
+                    <div class="card" data-bs-toggle="collapse" data-bs-target="#thirthfaq">
+                        <div class="card-body d-flex justify-content-center">
+                          <p class="card-text fw-bold">Pregunta 3</p>
+                          <span><i class="bi bi-caret-down-fill" ></i></span>
+                        </div>
+                    </div>
+                    <div class="card collapse" id="thirthfaq">
+                        <p class="card-body text-decoration-underline text-center">Respuesta3</p>
+                    </div>
+                    <div class="card" data-bs-toggle="collapse" data-bs-target="#fourthfaq">
+                        <div class="card-body d-flex justify-content-center">
+                          <p class="card-text fw-bold">Pregunta 4</p>
+                          <span><i class="bi bi-caret-down-fill" ></i></span>
+                        </div>
+                    </div>
+                    <div class="card collapse" id="fourthfaq">
+                        <p class="card-body text-decoration-underline text-center">Respuesta 4</p>
+                    </div>
+                    <div class="card" data-bs-toggle="collapse" data-bs-target="#fifthfaq">
+                        <div class="card-body d-flex justify-content-center">
+                          <p class="card-text fw-bold">Pregunta5</p>
+                          <span><i class="bi bi-caret-down-fill" ></i></span>
+                        </div>
+                    </div>
+                    <div class="card collapse" id="fifthfaq">
+                        <p class="card-body text-decoration-underline text-center">Respuesta 5</p>
                     </div>
                 </div>
             </section>
-            <section >
+
+
+            <section class="my-5" data-aos="fade-up" >
                 <form action="#">
                     <fieldset class="d-md-flex gap-5">
                         <div class="form-group w-md-50">
                             <legend class="form-label mt-4"><u>Suscribete</u></legend>
                             <div class="form-floating mb-3">
-                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                              <label for="floatingInput">Email:</label>
+                              <input type="email" class="form-control" id="input-form" placeholder="name@example.com" required>
+                              <label for="input-form">Email:</label>
                               <div class="form-check mt-3">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <input class="form-check-input" type="checkbox"  id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
                                   <small>Quiero recibir mas informacion de interes.</small>
                                 </label>
                               </div>
-                              <button type="button" class="btn btn-outline-success w-100 mt-3">Enviar</button>
+                              <button type="submit" id="btn-form" class="btn btn-outline-success w-100 mt-3">Enviar</button>
                             </div>
                            
                         </div>
                         <div class="d-flex justify-content-center"><img class="w-75" src="./assets/undraw_text_field_htlv.svg" alt=""></div>
                     </fieldset>
                 </form>
+                
             </section>
+            <div id="alert-succes" class="alert alert-success w-50 position-fixed bottom-0 start-100 d-flex align-items-center" role="alert">
+                <i class="bi bi-check-circle-fill d-inline-block m-3"></i>
+                Registro completo! <br> Por favor revisa tu bandeja de entrada!   
+            </div>
+            <div id="alert-fail" class="alert alert-danger w-50 position-fixed bottom-0 start-100 d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-circle-fill d-inline-block m-3"></i>
+                Por favor ingresa un correo valido.
+            </div>
         </main>
         <footer class="bg-dark p-3 d-flex align-items-center justify-content-center">
             <div class="d-flex gap-5 fs-3">
@@ -123,5 +230,7 @@
                 <a class="text-light" href="#"><i class="bi bi-facebook"></i></a>
             </div>
     </footer>
+
+    <script src="index.js"></script>
     </body>
 </html>
