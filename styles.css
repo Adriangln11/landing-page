@@ -39,3 +39,12 @@ body{
     opacity: 1;
     visibility: visible;
 }
+
+#faq .card:hover{
+    cursor: pointer;
+}
+#features .card:hover{
+    cursor: pointer;
+    transition: transform .5s;
+    transform: scale(1.1);
+}

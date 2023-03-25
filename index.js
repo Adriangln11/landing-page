@@ -7,12 +7,12 @@ const regex = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@
 
 
 function showAlert(alert){
-    if (alert.classList.contains('start-50')) {
-        alert.classList.remove('start-50')
-        alert.classList.add('start-100')
-    }else{
+    if (alert.classList.contains('start-100')) {
         alert.classList.remove('start-100')
-        alert.classList.add('start-50')
+        alert.classList.add('start-0')
+    }else{
+        alert.classList.remove('start-0')
+        alert.classList.add('start-100')
     }
 }
 

@@ -54,14 +54,14 @@
             <section class=" mt-3 d-flex flex-column flex-md-row vh-auto align-items-center">
                 <div class="my-5 vh-50 text-center">
                     <h1  data-aos="fade-right" class="fs-1 p-3">¿Te gustaria alcanzar tu libertad financiera por el camino más sencillo y seguro?.</h1>
-                    <button type="button" class="btn btn-outline-primary m-3">Conocer mas</button>
+                    <a href="#features" type="button" class="btn btn-outline-primary m-3 ">Conocer mas</a>
                 </div>
                 <div class="header-img-container w-100 d-flex justify-content-center">
                     <img class="img-fluid w-100" src="./assets/undraw_projections_re_ulc6.svg" alt="">
                 </div>
             </section>
         </header>
-        <main class="p-5">
+        <main class="p-3">
             <section id="about" data-aos="fade-up" class="text-center my-5">
                 <h2 class="my-3">Sobre Mi</h2>
                 <div class="row d-flex justify-content-center align-items-center">
@@ -80,9 +80,9 @@
                     La verdad es que no necesitas una técnica que te haga rico de la noche a la mañana o una “fórmula mágica”… Pero eso sí, un mapa completo que te guíe hacia la libertad financiera de una forma sencilla y segura.
                     No llegará de la noche a la mañana, pero te garantizo que, poco a poco la construirás.
                 </p>
-                <button type="button" class="btn btn-outline-primary m-3">Conocer mas</button>
+                <a href="#suscribe" type="button" class="btn btn-outline-primary m-3">Suscribete</a>
 
-                <div id="features" class="row align-items-center">
+                <div id="features" class="row justify-content-center">
                     <div class="col-md-6 col-lg-8">
                         <img class="w-100" src="./assets/undraw_progress_data_re_rv4p.svg" alt="">
                     </div>
@@ -116,38 +116,12 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
-                    <!-- <div class="w-50 fs-6 d-flex flex-column gap-3">
-                        <article>
-                            <div class="d-flex gap-2 align-items-center">
-                                
-                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
-                            </div>
-                            
-                        </article>
-                        <article>
-                            <div class="d-flex  gap-2 align-items-center text-left">
-                                <i class="bi bi-piggy-bank-fill  fs-3"></i>
-                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
-                            </div>
-                           
-                        </article>
-                        <article>
-                            <div class="d-flex gap-2 align-items-center text-left">
-                                <i class="bi bi-bar-chart-fill fs-3"></i>
-                                <span  class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-                            </div>
-                            
-                        </article>
-                    </div> -->
-                </div>
             </section>
 
 
             <section id="faq" class="my-5" data-aos="fade-up" >
                 <h2 class="text-center my-5">FAQs</h2>
-                <div class="container">
+                <div class="">
                     <div class="card " data-bs-toggle="collapse" data-bs-target="#firstfaq">
                         <div class="card-body d-flex justify-content-center">
                           <p class="card-text fw-bold">¿Que se necesita para tomar el curso?</p>
@@ -203,8 +177,12 @@
                         <div class="form-group w-md-50">
                             <legend class="form-label mt-4"><u>Suscribete</u></legend>
                             <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                                <label for="floatingName">Name</label>
+                              </div>
+                            <div class="form-floating mb-3">
                               <input type="email" class="form-control" id="input-form" placeholder="name@example.com" required>
-                              <label for="input-form">Email:</label>
+                              <label for="input-form">Email</label>
                               <div class="form-check mt-3">
                                 <input class="form-check-input" type="checkbox"  id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
@@ -220,13 +198,15 @@
                 </form>
                 
             </section>
-            <div id="alert-succes" class="alert alert-success w-50 position-fixed bottom-0 start-100 d-flex align-items-center" role="alert">
-                <i class="bi bi-check-circle-fill d-inline-block m-3"></i>
-                Registro completo! <br> Por favor revisa tu bandeja de entrada!   
-            </div>
-            <div id="alert-fail" class="alert alert-danger w-50 position-fixed bottom-0 start-100 d-flex align-items-center" role="alert">
-                <i class="bi bi-exclamation-circle-fill d-inline-block m-3"></i>
-                Por favor ingresa un correo valido.
+            <div class=" row ">
+                <div id="alert-succes" class="alert alert-success position-fixed bottom-0 start-100 col-12 col-md-8 start-100 d-flex align-items-center" role="alert">
+                    <i class="bi bi-check-circle-fill d-inline-block m-3"></i>
+                    Registro completo! <br> Por favor revisa tu bandeja de entrada!
+                </div>
+                <div id="alert-fail" class="alert alert-danger position-fixed bottom-0 start-100 col-12 col-md-8 start-100 d-flex align-items-center" role="alert">
+                    <i class="bi bi-exclamation-circle-fill d-inline-block m-3"></i>
+                    Por favor ingresa un correo valido.
+                </div>
             </div>
         </main>
         <footer class="bg-dark p-3 d-flex align-items-center justify-content-center">
